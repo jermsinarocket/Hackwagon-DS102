@@ -1,4 +1,4 @@
-# Hackwagon Academy - Data Science 102
+# Data Science 102 - Hackwagon Academy
 Data Science 102 Course with Hackwagon Academy 
 
 ## Language(s) used
