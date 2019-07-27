@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Glucose <= 154.5\nentropy = 0.932\nsamples = 400\nvalue = [261, 139]\nclass = Has Diabetes", fillcolor="#e5813977"] ;
+1 [label="BMI <= 26.45\nentropy = 0.826\nsamples = 331\nvalue = [245, 86]\nclass = Has Diabetes", fillcolor="#e58139a5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Pregnancies <= 2.5\nentropy = 0.238\nsamples = 77\nvalue = [74, 3]\nclass = Has Diabetes", fillcolor="#e58139f5"] ;
+1 -> 2 ;
+3 [label="entropy = 0.0\nsamples = 38\nvalue = [38, 0]\nclass = Has Diabetes", fillcolor="#e58139ff"] ;
+2 -> 3 ;
+4 [label="entropy = 0.391\nsamples = 39\nvalue = [36, 3]\nclass = Has Diabetes", fillcolor="#e58139ea"] ;
+2 -> 4 ;
+5 [label="Age <= 24.5\nentropy = 0.912\nsamples = 254\nvalue = [171, 83]\nclass = Has Diabetes", fillcolor="#e5813983"] ;
+1 -> 5 ;
+6 [label="entropy = 0.554\nsamples = 70\nvalue = [61, 9]\nclass = Has Diabetes", fillcolor="#e58139d9"] ;
+5 -> 6 ;
+7 [label="entropy = 0.972\nsamples = 184\nvalue = [110, 74]\nclass = Has Diabetes", fillcolor="#e5813953"] ;
+5 -> 7 ;
+8 [label="BMI <= 29.1\nentropy = 0.781\nsamples = 69\nvalue = [16, 53]\nclass = No Diabetes", fillcolor="#399de5b2"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Age <= 52.0\nentropy = 0.918\nsamples = 12\nvalue = [8, 4]\nclass = Has Diabetes", fillcolor="#e581397f"] ;
+8 -> 9 ;
+10 [label="entropy = 1.0\nsamples = 8\nvalue = [4, 4]\nclass = Has Diabetes", fillcolor="#e5813900"] ;
+9 -> 10 ;
+11 [label="entropy = 0.0\nsamples = 4\nvalue = [4, 0]\nclass = Has Diabetes", fillcolor="#e58139ff"] ;
+9 -> 11 ;
+12 [label="BMI <= 31.05\nentropy = 0.585\nsamples = 57\nvalue = [8, 49]\nclass = No Diabetes", fillcolor="#399de5d5"] ;
+8 -> 12 ;
+13 [label="entropy = 0.0\nsamples = 8\nvalue = [0, 8]\nclass = No Diabetes", fillcolor="#399de5ff"] ;
+12 -> 13 ;
+14 [label="entropy = 0.642\nsamples = 49\nvalue = [8, 41]\nclass = No Diabetes", fillcolor="#399de5cd"] ;
+12 -> 14 ;
+}
