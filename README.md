@@ -5,7 +5,7 @@ Data Science 102 Course with Hackwagon Academy
 * Python 3.7.2
 
 ## IDE(s) used
-* Jupyer Notebook
+* Jupyter Notebook
 
 ## Contributors
 * [Tan Wei Xuan](https://github.com/jermsinarocket)
